@@ -23,6 +23,9 @@
 
 }
 
+div {
+	overflow: hidden;
+}
 
 i, cite, em, var, address, dfn {
 	font-style: normal;
@@ -145,4 +148,24 @@ nav li span {
 
 li {
 	list-style: none;
+}
+
+article section {
+	overflow: visible;
+}
+.bubble {
+	padding: 60px 20px 0 130px;
+	height: 10%;
+	width: 10%;
+}
+
+.title {
+	color: #F34A53;
+	font-size: 20px;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+
+.center {
+	padding-left: 270px;
 }
