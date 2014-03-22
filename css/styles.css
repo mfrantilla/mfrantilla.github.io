@@ -42,17 +42,25 @@ img {
 }
 
 .container {
-	margin-top: 6em;
+	margin: auto;
+	max-width: 900px;
+}
+.main, .nav {
+	margin: auto;
+	margin-top: 2em;
 	border-radius: 2em;
 	background: #f3f3f3;
-	padding: 5em;
+	padding: 2em;
+	max-width:900px;
+	min-width: 300px;
+
 }
 
-em {
-	margin-bottom: 1em;
-	display: block;
-	color: #a8a8a8;
+.nav {
+	padding: .15em;
+	text-align: center;
 }
+
 
 /* Set Your Own Margin & Padding */
 h2, h3, p {
@@ -78,7 +86,7 @@ h2 {
 }
 
 h3 {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 p {
@@ -86,13 +94,6 @@ p {
 	font-size: 1em;
 	line-height: 1.5em;
 }
-
-/* Layout for Style Tile*/
-section {
-	margin: 20px 0;
-}
-
-
 
 /* Link Styles */
 
@@ -121,11 +122,13 @@ nav li {
 nav li a:link, nav li a:visited {
 	font-size: 1.5em;
 	color: #000;
+	-webkit-transition: all .5s;
 }
 
 nav li a:hover {
 	color: #FF5952;
 	text-decoration: none;
+	-webkit-transition: all .5s;
 }
 
 nav li span {
@@ -140,7 +143,6 @@ nav li span {
 
 
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+li {
+	list-style: none;
 }
