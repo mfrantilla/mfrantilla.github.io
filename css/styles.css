@@ -107,8 +107,14 @@ MEDIA QUERIES
 @media (min-width: 768px) {
 
 }
+@media (max-width: 768px) {
+    .logo{
+        display: none;
+    }
 
+}
 /* Mobile */
 @media (min-width: 480px) {
-
+    
+    }
 }
