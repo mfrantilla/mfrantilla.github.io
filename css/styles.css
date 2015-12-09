@@ -14,8 +14,100 @@ MEDIA QUERIES
 
 }
 
+<<<<<<< HEAD
 /* Tablet */
 @media (min-width: 768px) {
+=======
+h1 {
+	font-family: 'bebas_neueregular';
+	color: #FF5952;
+	font-size: 4em;
+	margin-bottom: 2px;
+	line-height: 1em;
+}
+
+h2, h3 {
+	font-family: 'bonvenocflight';
+	color: #176075;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	font-family: Georgia, serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	max-width: 700px;
+}
+
+/* Link Styles */
+
+a:link, a:visited {
+	font-family: 'bonvenocflight';
+	text-decoration: none;
+	color: #176075;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Nav Styles */
+nav ul {
+	padding: 0;
+}
+nav li {
+	list-style: none;
+	display: inline;
+	font-family: 'bonvenocflight';
+	text-transform: uppercase;
+}
+
+nav li a:link, nav li a:visited {
+	font-size: 1.5em;
+	color: #000;
+	-webkit-transition: all .5s;
+}
+
+nav li a:hover {
+	color: #FF5952;
+	text-decoration: none;
+	-webkit-transition: all .5s;
+}
+
+nav li span {
+	font-size: 2em;
+}
+
+
+.hr {
+	border-top: 2px dashed #FF5952;
+	height: 2px
+}
+
+
+
+li {
+	list-style: none;
+}
+
+article section {
+	overflow: visible;
+}
+.bubble {
+	padding: 60px 20px 0 130px;
+	height: 10%;
+	width: 10%;
+}
+>>>>>>> refs/remotes/origin/gh-pages
 
 }
 
