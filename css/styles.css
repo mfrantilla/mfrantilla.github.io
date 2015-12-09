@@ -1,113 +1,110 @@
 /********************
 YOUR STYLES
 *******************/
+html{
+     background-image: url(../img/mooning.png);
+    
+}
+.main{
+    background-color: #BBBABA;
+    min-height: 40em;
+    display: block;
+    width: 75%;
+    margin: auto;
+   
+}
+
+.logo{
+    z-index: 999;
+    position: fixed;
+    display: inline;
+    height: 45%;
+    width: 45%;
+    float: left;
+
+}
 
 
 
+/************
+NAV
+*******/
+
+.nav{
+    background: hsla(202, 44%, 50%, .75);
+    text-align: right;
+    color: white;
+    padding: .05em;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+.nav ul{
+    padding-right: 3em;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav li a:link, a:visited{
+    display: inline;
+    font-family: bonvenocflight;
+    color: white;
+    text-decoration: none;
+    font-size:1.09em;
+}
+
+.nav li a:hover{
+    display: inline;
+    color:hsla(208, 26%, 36%, 1);
+    -webkit-transition: all .32s;
+    
+}
+
+
+
+
+
+/********************
+POSSIBLE FONTS
+********************/
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('../fonts/BonvenoCF-Light-webfont.eot');
+    src: url('../fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('../fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('../fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /********************
 MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
 
 }
-
-<<<<<<< HEAD
 /* Tablet */
 @media (min-width: 768px) {
-=======
-h1 {
-	font-family: 'bebas_neueregular';
-	color: #FF5952;
-	font-size: 4em;
-	margin-bottom: 2px;
-	line-height: 1em;
-}
-
-h2, h3 {
-	font-family: 'bonvenocflight';
-	color: #176075;
-	text-transform: uppercase;
-}
-
-h2 {
-	font-size: 3em;
-}
-
-h3 {
-	font-size: 1.5em;
-}
-
-p {
-	font-family: Georgia, serif;
-	font-size: 1em;
-	line-height: 1.5em;
-	max-width: 700px;
-}
-
-/* Link Styles */
-
-a:link, a:visited {
-	font-family: 'bonvenocflight';
-	text-decoration: none;
-	color: #176075;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-
-/* Nav Styles */
-nav ul {
-	padding: 0;
-}
-nav li {
-	list-style: none;
-	display: inline;
-	font-family: 'bonvenocflight';
-	text-transform: uppercase;
-}
-
-nav li a:link, nav li a:visited {
-	font-size: 1.5em;
-	color: #000;
-	-webkit-transition: all .5s;
-}
-
-nav li a:hover {
-	color: #FF5952;
-	text-decoration: none;
-	-webkit-transition: all .5s;
-}
-
-nav li span {
-	font-size: 2em;
-}
-
-
-.hr {
-	border-top: 2px dashed #FF5952;
-	height: 2px
-}
-
-
-
-li {
-	list-style: none;
-}
-
-article section {
-	overflow: visible;
-}
-.bubble {
-	padding: 60px 20px 0 130px;
-	height: 10%;
-	width: 10%;
-}
->>>>>>> refs/remotes/origin/gh-pages
 
 }
 
