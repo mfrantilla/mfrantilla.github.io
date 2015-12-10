@@ -6,7 +6,7 @@ html{
     
 }
 .main{
-    background-color: #BBBABA;
+    background-color: #efefef;
     min-height: 40em;
     display: block;
     width: 75%;
@@ -18,8 +18,8 @@ html{
     z-index: 999;
     position: fixed;
     display: inline;
-    height: 45%;
-    width: 45%;
+    height: 40%;
+    width: 40%;
     float: left;
 
 }
@@ -31,7 +31,7 @@ NAV
 *******/
 
 .nav{
-    background: hsla(202, 44%, 50%, .75);
+    background: hsla(202, 44%, 50%, 1);
     text-align: right;
     color: white;
     padding: .05em;
@@ -65,9 +65,33 @@ NAV
 }
 
 
+/************************
+FOOTER
+************************/
 
+.footer{
+    background: hsla(202, 44%, 50%, 1);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-height: 3em;
+    padding: .32em;
+}
 
+.footer img{
+    width: 45px;
+    margin-left: 2em;
+}
 
+.footer h1{
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+    float:right;
+    margin-right: 2em;
+    font-size: 1em;
+}
 /********************
 POSSIBLE FONTS
 ********************/
