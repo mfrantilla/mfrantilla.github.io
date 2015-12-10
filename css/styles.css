@@ -11,7 +11,14 @@ html{
     display: block;
     width: 75%;
     margin: auto;
+    
+  
    
+}
+
+footnote{
+    font-size: .75em;
+    color: #EA6459;
 }
 
 .logo{
@@ -27,14 +34,40 @@ html{
 
 .bodyText{
     padding-top: 5em;
-    margin-left: 11em;
-    margin-right: 11em;
+    margin: auto;
+    width: 55%; 
 }
 
+.me{
+    max-width: 15em;
+    float: left;
+    padding: 10em;
+    padding-right: 5em;
+    
+}
+
+hr{
+   border-color: #EA6459;
+    margin-top: 2em;
+    margin-bottom: 0;
+    border-style: dashed;
+}
+
+icons{
+    margin-left: 4em;
+}
+/************************
+BIO Major Lists
+************************/
+
+.bio li{
+  
+    list-style: none;
+}
 
 /************
 NAV
-*******/
+************/
 
 .nav{
     background: hsla(202, 44%, 50%, 1);
