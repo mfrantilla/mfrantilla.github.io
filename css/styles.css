@@ -18,8 +18,9 @@ html{
     z-index: 999;
     position: fixed;
     display: inline;
-    height: 40%;
-    width: 40%;
+    max-width: 10em;
+    min-width: 3em;
+    margin-left: 10em;
     float: left;
 
 }
