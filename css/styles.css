@@ -76,12 +76,16 @@ button{
     display: block;
     color:white;
     
-    
-    
 }
 
 button:hover{
     background-color: #DD59529;
+}
+
+.resume2 img{
+    max-width: 5em;
+    float:right;
+    display: block;
 }
 /************************
 BIO Major Lists
