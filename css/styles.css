@@ -25,6 +25,11 @@ html{
 
 }
 
+.bodyText{
+    padding-top: 5em;
+    margin-left: 11em;
+    margin-right: 11em;
+}
 
 
 /************
@@ -81,14 +86,13 @@ FOOTER
 }
 
 .footer img{
-    width: 45px;
-    margin-left: 2em;
+    width: 35px;
 }
 
 .footer h1{
     color: white;
     text-align: right;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     float:right;
     margin-right: 2em;
     font-size: 1em;
