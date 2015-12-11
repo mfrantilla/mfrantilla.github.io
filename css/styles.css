@@ -1,6 +1,12 @@
 /********************
 YOUR STYLES
 *******************/
+
+h1{
+    color: #9FBFA1;
+    font-family: "Bebas Neue", sans-seif;
+    letter-spacing: .04em;
+}
 html{
      background-image: url(../img/mooning.png);
     
@@ -48,7 +54,26 @@ footnote{
 
 .resume{
     margin-bottom:1em;
-    box-shadow: 9px 10px 10px .012px #c0c0c0;
+    /*box-shadow: 9px 10px 10px .012px #c0c0c0;*/
+    border: 2px dashed #EA6459;
+    display: inline;
+    width:67%;
+    padding-right: 3em;
+    
+}
+
+ .resume2{
+    max-width: 15em;
+    display: block;
+    float: right;
+    margin-top: .5em;
+    margin-bottom:.5em;
+    margin-left: 1em;
+    display:inline;
+}
+
+resume2 hr{
+    margin-top: none;
 }
 
 hr{
@@ -77,16 +102,14 @@ button{
     color:white;
     
 }
-
+a {
+    text-decoration: none;
+}
 button:hover{
-    background-color: #DD59529;
+    background: #DD5952;
 }
 
-.resume2 img{
-    max-width: 5em;
-    float:right;
-    display: block;
-}
+
 /************************
 BIO Major Lists
 ************************/
