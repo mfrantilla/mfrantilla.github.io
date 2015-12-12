@@ -1,16 +1,16 @@
 // My Scripts
-document.ready(function(){
+$(document).ready(function(){
 
-var str = "Thank You!";
+    var str = "Thank You!";
 
-$("button").click(function(){
-   $("button").html(str);
+    $("button").click(function(){
+       $("button").html(str);
+
+    });
+
+
+
+  $('').magnificPopup({type:'image'});
+
     
 });
-
-
-$( '#tp-grid' ).stapel();
-    
-    
-    
-    });
