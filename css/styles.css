@@ -2,10 +2,19 @@
 YOUR STYLES
 *******************/
 
+
 h1{
     color: #9FBFA1;
     font-family: "Bebas Neue", sans-seif;
     letter-spacing: .04em;
+}
+
+h2{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    position: relative;
+    margin-top: 2em;
+    display: inline;
 }
 html{
      background-image: url(../img/mooning.png);
@@ -17,9 +26,20 @@ html{
     display: block;
     width: 75%;
     margin: auto;
-    
-  
-   
+}
+
+.main p, .main h1{
+    color: #333333;
+    line-height: 2em;
+    margin: auto;
+    padding-left: 3em;
+}
+
+.bannerthing{
+   width: 100%;
+    height: 300px;
+   background: url("../img/ugh.png") no-repeat;
+    margin-bottom:2em;
 }
 
 footnote{
@@ -210,6 +230,19 @@ POSSIBLE FONTS
     font-style: normal;
 
 }
+
+
+/*******************
+AYO
+*******************/
+
+typeform-widget{
+    margin:auto;
+    margin-top: 10em;
+}
+
+
+
 
 /********************
 MEDIA QUERIES
