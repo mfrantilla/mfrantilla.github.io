@@ -21,11 +21,13 @@ html{
     
 }
 .main{
+    padding-top: 8px;
     background-color: #efefef;
     min-height: 40em;
     display: block;
     width: 75%;
-    margin: auto;
+    margin: 50px auto;
+    z-index: -1;
 }
 
 .main p, .main h1{
@@ -55,6 +57,7 @@ footnote{
     min-width: 3em;
     margin-left: 10em;
     float: left;
+    top:0;
 
 }
 
@@ -130,6 +133,10 @@ button:hover{
 }
 
 
+
+
+
+
 /************************
 BIO Major Lists
 ************************/
@@ -150,8 +157,9 @@ NAV
     padding: .05em;
     position: fixed;
     width: 100%;
-
-
+    left:0;
+    top:0;
+    z-index: 50;
 }
 
 .nav ul{
@@ -241,6 +249,11 @@ typeform-widget{
     margin-top: 10em;
 }
 
+
+.fotorama{
+    margin-left:25%;
+    margin-right: 25%;
+}
 
 
 
