@@ -9,8 +9,5 @@ $(document).ready(function(){
     });
 
 
-
-  $('').magnificPopup({type:'image'});
-
     
 });
