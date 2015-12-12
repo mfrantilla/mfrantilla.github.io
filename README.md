@@ -1,3 +1,4 @@
 mfrantilla.github.io
 ====================
-ADD THIS AFTER
+Portfolio Plugin - http://fotorama.io/
+Contact Widget Thing - http://wwwtypeform.com
